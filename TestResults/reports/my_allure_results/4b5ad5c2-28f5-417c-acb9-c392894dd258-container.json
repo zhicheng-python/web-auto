@@ -1,0 +1,1 @@
+{"uuid": "a33a0851-197e-48a5-91a8-bc4b21a060ad", "children": ["27a570ac-3f23-42a7-9ee7-1df5dfe36b82"], "befores": [{"name": "click_device_manage", "status": "passed", "start": 1600419190379, "stop": 1600419194943}], "afters": [{"name": "click_device_manage::0", "status": "passed", "start": 1600419204857, "stop": 1600419204857}], "start": 1600419190379, "stop": 1600419204857}

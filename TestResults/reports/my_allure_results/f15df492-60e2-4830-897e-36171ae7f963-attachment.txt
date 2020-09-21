@@ -1,0 +1,74 @@
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//input[@type='text']")可见...
+INFO     mylogger:base_page_object.py:89 登录页面_输入用户名→→→开始获取元素:('xpath', "//input[@type='text']")
+INFO     mylogger:base_page_object.py:116 登录页面_输入用户名→→→开始输入文本信息：wangzhicheng@sunmi.com
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//input[@type='password']")可见...
+INFO     mylogger:base_page_object.py:89 登录页面_输入密码→→→开始获取元素:('xpath', "//input[@type='password']")
+INFO     mylogger:base_page_object.py:116 登录页面_输入密码→→→开始输入文本信息：wzc111111
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//button[@type='button']")可见...
+INFO     mylogger:base_page_object.py:89 登录页面_点击登录按钮→→→开始获取元素:('xpath', "//button[@type='button']")
+INFO     mylogger:base_page_object.py:141 登录页面_点击登录按钮→→→开始点击元素：('xpath', "//button[@type='button']")
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//span[text()='IoT设备管理']")可见...
+INFO     mylogger:base_page_object.py:89 主界面-点击IOT设备管理→→→开始获取元素:('xpath', "//span[text()='IoT设备管理']")
+INFO     mylogger:base_page_object.py:141 主界面-点击IOT设备管理→→→开始点击元素：('xpath', "//span[text()='IoT设备管理']")
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//a[@to='/wireless/printer']")可见...
+INFO     mylogger:base_page_object.py:89 主界面-IOT设备管理-点击设备管理→→→开始获取元素:('xpath', "//a[@to='/wireless/printer']")
+INFO     mylogger:base_page_object.py:141 主界面-IOT设备管理-点击设备管理→→→开始点击元素：('xpath', "//a[@to='/wireless/printer']")
+INFO     mylogger:base_page_object.py:53 等待元素('id', 'sn')可见...
+INFO     mylogger:base_page_object.py:89 子界面-输入SN→→→开始获取元素:('id', 'sn')
+INFO     mylogger:base_page_object.py:116 子界面-输入SN→→→开始输入文本信息：N301P9WZC0193
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//button[@type='button']")可见...
+INFO     mylogger:base_page_object.py:89 子界面-点击查询按钮→→→开始获取元素:('xpath', "//button[@type='button']")
+INFO     mylogger:base_page_object.py:141 子界面-点击查询按钮→→→开始点击元素：('xpath', "//button[@type='button']")
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//a[@class='ant-dropdown-link ant-dropdown-trigger' and text()='更多']")可见...
+INFO     mylogger:base_page_object.py:89 子界面-点击更多按钮→→→开始获取元素:('xpath', "//a[@class='ant-dropdown-link ant-dropdown-trigger' and text()='更多']")
+INFO     mylogger:base_page_object.py:141 子界面-点击更多按钮→→→开始点击元素：('xpath', "//a[@class='ant-dropdown-link ant-dropdown-trigger' and text()='更多']")
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//div[text()='设备信息']")可见...
+INFO     mylogger:base_page_object.py:89 更多界面-点击设备信息→→→开始获取元素:('xpath', "//div[text()='设备信息']")
+INFO     mylogger:base_page_object.py:141 更多界面-点击设备信息→→→开始点击元素：('xpath', "//div[text()='设备信息']")
+INFO     mylogger:test_04_device_more_info_page.py:263 正常用例：点击设备信息-查看设置项-打印浓度
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//div[@class='ant-collapse-header' and text()='设置项']")可见...
+INFO     mylogger:base_page_object.py:89 设备信息-点击设置项→→→开始获取元素:('xpath', "//div[@class='ant-collapse-header' and text()='设置项']")
+INFO     mylogger:base_page_object.py:141 设备信息-点击设置项→→→开始点击元素：('xpath', "//div[@class='ant-collapse-header' and text()='设置项']")
+INFO     mylogger:device_more_info_asserts.py:679 断言：设置项-查看页面打印浓度，与数据库比对，返回True or False
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//div[@class='ant-col-12' and text()='打印浓度：']//following-sibling::div[@class='ant-col-12']")可见...
+INFO     mylogger:base_page_object.py:89 设置项-打印浓度→→→开始获取元素:('xpath', "//div[@class='ant-col-12' and text()='打印浓度：']//following-sibling::div[@class='ant-col-12']")
+INFO     mylogger:base_page_object.py:170 设置项-打印浓度→→→获取元素文本信息：('xpath', "//div[@class='ant-col-12' and text()='打印浓度：']//following-sibling::div[@class='ant-col-12']")
+INFO     mylogger:device_more_info_asserts.py:681 ---value-----:1%
+INFO     mylogger:device_more_info_asserts.py:701 ----db_value----:1
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//input[@type='text']")可见...
+INFO     mylogger:base_page_object.py:89 登录页面_输入用户名→→→开始获取元素:('xpath', "//input[@type='text']")
+INFO     mylogger:base_page_object.py:116 登录页面_输入用户名→→→开始输入文本信息：wangzhicheng@sunmi.com
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//input[@type='password']")可见...
+INFO     mylogger:base_page_object.py:89 登录页面_输入密码→→→开始获取元素:('xpath', "//input[@type='password']")
+INFO     mylogger:base_page_object.py:116 登录页面_输入密码→→→开始输入文本信息：wzc111111
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//button[@type='button']")可见...
+INFO     mylogger:base_page_object.py:89 登录页面_点击登录按钮→→→开始获取元素:('xpath', "//button[@type='button']")
+INFO     mylogger:base_page_object.py:141 登录页面_点击登录按钮→→→开始点击元素：('xpath', "//button[@type='button']")
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//span[text()='IoT设备管理']")可见...
+INFO     mylogger:base_page_object.py:89 主界面-点击IOT设备管理→→→开始获取元素:('xpath', "//span[text()='IoT设备管理']")
+INFO     mylogger:base_page_object.py:141 主界面-点击IOT设备管理→→→开始点击元素：('xpath', "//span[text()='IoT设备管理']")
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//a[@to='/wireless/printer']")可见...
+INFO     mylogger:base_page_object.py:89 主界面-IOT设备管理-点击设备管理→→→开始获取元素:('xpath', "//a[@to='/wireless/printer']")
+INFO     mylogger:base_page_object.py:141 主界面-IOT设备管理-点击设备管理→→→开始点击元素：('xpath', "//a[@to='/wireless/printer']")
+INFO     mylogger:base_page_object.py:53 等待元素('id', 'sn')可见...
+INFO     mylogger:base_page_object.py:89 子界面-输入SN→→→开始获取元素:('id', 'sn')
+INFO     mylogger:base_page_object.py:116 子界面-输入SN→→→开始输入文本信息：N301P9WZC0193
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//button[@type='button']")可见...
+INFO     mylogger:base_page_object.py:89 子界面-点击查询按钮→→→开始获取元素:('xpath', "//button[@type='button']")
+INFO     mylogger:base_page_object.py:141 子界面-点击查询按钮→→→开始点击元素：('xpath', "//button[@type='button']")
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//a[@class='ant-dropdown-link ant-dropdown-trigger' and text()='更多']")可见...
+INFO     mylogger:base_page_object.py:89 子界面-点击更多按钮→→→开始获取元素:('xpath', "//a[@class='ant-dropdown-link ant-dropdown-trigger' and text()='更多']")
+INFO     mylogger:base_page_object.py:141 子界面-点击更多按钮→→→开始点击元素：('xpath', "//a[@class='ant-dropdown-link ant-dropdown-trigger' and text()='更多']")
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//div[text()='设备信息']")可见...
+INFO     mylogger:base_page_object.py:89 更多界面-点击设备信息→→→开始获取元素:('xpath', "//div[text()='设备信息']")
+INFO     mylogger:base_page_object.py:141 更多界面-点击设备信息→→→开始点击元素：('xpath', "//div[text()='设备信息']")
+INFO     mylogger:test_04_device_more_info_page.py:263 正常用例：点击设备信息-查看设置项-打印浓度
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//div[@class='ant-collapse-header' and text()='设置项']")可见...
+INFO     mylogger:base_page_object.py:89 设备信息-点击设置项→→→开始获取元素:('xpath', "//div[@class='ant-collapse-header' and text()='设置项']")
+INFO     mylogger:base_page_object.py:141 设备信息-点击设置项→→→开始点击元素：('xpath', "//div[@class='ant-collapse-header' and text()='设置项']")
+INFO     mylogger:device_more_info_asserts.py:679 断言：设置项-查看页面打印浓度，与数据库比对，返回True or False
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//div[@class='ant-col-12' and text()='打印浓度：']//following-sibling::div[@class='ant-col-12']")可见...
+INFO     mylogger:base_page_object.py:89 设置项-打印浓度→→→开始获取元素:('xpath', "//div[@class='ant-col-12' and text()='打印浓度：']//following-sibling::div[@class='ant-col-12']")
+INFO     mylogger:base_page_object.py:170 设置项-打印浓度→→→获取元素文本信息：('xpath', "//div[@class='ant-col-12' and text()='打印浓度：']//following-sibling::div[@class='ant-col-12']")
+INFO     mylogger:device_more_info_asserts.py:681 ---value-----:1%
+INFO     mylogger:device_more_info_asserts.py:701 ----db_value----:1

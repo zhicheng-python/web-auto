@@ -1,0 +1,20 @@
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//input[@type='text']")可见...
+INFO     mylogger:base_page_object.py:89 登录页面_输入用户名→→→开始获取元素:('xpath', "//input[@type='text']")
+INFO     mylogger:base_page_object.py:116 登录页面_输入用户名→→→开始输入文本信息：wangzhicheng@sunmi.com
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//input[@type='password']")可见...
+INFO     mylogger:base_page_object.py:89 登录页面_输入密码→→→开始获取元素:('xpath', "//input[@type='password']")
+INFO     mylogger:base_page_object.py:116 登录页面_输入密码→→→开始输入文本信息：wzc111111
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//button[@type='button']")可见...
+INFO     mylogger:base_page_object.py:89 登录页面_点击登录按钮→→→开始获取元素:('xpath', "//button[@type='button']")
+INFO     mylogger:base_page_object.py:141 登录页面_点击登录按钮→→→开始点击元素：('xpath', "//button[@type='button']")
+INFO     mylogger:base_page_object.py:53 等待元素('xpath', "//span[text()='IoT设备管理']")可见...
+ERROR    mylogger:base_page_object.py:57 等待元素可见失败...
+Traceback (most recent call last):
+  File "E:\IOT\cloud_printer_project\auto_test\gitlab_test\cloud-printer\Common\base_page_object.py", line 55, in wait_element_visible
+    WebDriverWait(self.driver, timeout, poll_frequency).until(EC.visibility_of_element_located(loc))
+  File "C:\Users\wangzhicheng\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     mylogger:base_page_object.py:35 ...开始截图...
+INFO     mylogger:base_page_object.py:42 ...截图成功...图片保存路径为：E:\IOT\cloud_printer_project\auto_test\gitlab_test\cloud-printer\TestResults\screenshots\20200918165219_主界面-点击IOT设备管理.png
