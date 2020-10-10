@@ -1,0 +1,72 @@
+logging:
+  collect_level: DEBUG
+  datefmt: '%Y/%m/%d %H:%M:%S'
+  fmt: '%(asctime)s-%(name)s-%(levelname)s-%(message)s'
+  name: mylogger
+  output_level: DEBUG
+
+
+mysql:
+  config: {"host":"test.db.sunmi.com",
+            "user":"tob","password":"Woyoufc94d1447e82ec",
+            "db":"iot_cloud_printer",
+            "port":3306,
+            "charset":"utf8"}
+
+
+  query_state_sql: "select is_online from t_cloud_printer_info where msn = %s;" #当前状态
+  query_hardware_model_sql: "select hardware_model from t_cloud_printer_info where msn = %s;" #小机型查询
+  query_connect_time_sql: "select connect_time from t_cloud_printer_info where msn = %s;" #连接时间
+  query_disconnect_time_sql: "select disconnect_time from t_cloud_printer_info where msn = %s;" #断连时间
+  query_log_switch_sql: "select log_switch from t_cloud_printer_info where msn = %s;" #开关状态
+
+  query_online_devices_number_sql: "select count(is_online) from t_cloud_printer_info where is_online =1;" #设备在线总计
+  query_device_count_sql: "select count(msn) from t_cloud_printer_info;" #设备总计
+
+
+  query_hardware_version_sql: "select hardware_version from t_cloud_printer_info where msn=%s;" #硬件版本
+  query_bootloader_version_sql: "select bootloader_version from t_cloud_printer_info where msn=%s;" #bootloader版本
+  query_firware_version_sql: "select firmware_version from t_cloud_printer_info where msn=%s;" #固件版本
+  query_app_version_sql: "select app_version from t_cloud_printer_info where msn=%s;" #app版本
+  query_font_library_version_sql: "select font_library_version from t_cloud_printer_info where msn=%s;" #字库版本
+  query_tts_language_sql: "select tts_language from t_cloud_printer_info where msn=%s;" #tts方言
+  query_tts_version_sql: "select tts_version from t_cloud_printer_info where msn=%s;" #tts版本
+  query_network_type_sql: "select network_type from t_cloud_printer_info where msn=%s;" #网络类型
+
+
+  query_imei_sql: "select imei from t_cloud_printer_info where msn= %s;" # imei
+  query_iccid_sql: "select sim from t_cloud_printer_info where msn= %s;" #iccid
+  query_lng_sql: "select lng from t_cloud_printer_info where msn= %s;"   #经度
+  query_lat_sql: "select lat from t_cloud_printer_info where msn= %s;"  #维度
+  query_gprs_signal_sql: "select gprs_length from t_totality_stat where msn= %s;"  #gprs信号强度
+
+  query_boot_mac_sql: "select boot_mac from t_cloud_printer_info where msn =%s;" #MAC地址
+  query_wifi_length_sql: "select wifi_length from t_totality_stat where msn =%s;" #wifi信号强度
+
+  query_printer_info_sql: "select printer_kilometre from t_totality_stat where msn = %s;" #打印公里数
+  query_money_box_sql: "select sum(money_box) from t_event_stat_daily where msn = %s;" #开钱箱次数
+  query_need_paper_sql: "select sum(need_paper) from t_event_stat_daily where msn = %s;" #总缺纸数
+  query_printer_head_broken_sql: "SELECT printer_head_broken from t_printer_head_broken where msn = %s ORDER BY id DESC limit 1;" #最新一条坏点数据
+
+
+  query_new_order_play_time_sql: "select new_order_play_time from t_cloud_printer_config where sn=%s;" #新订单播报次数
+  query_new_order_contents_sql: "select new_order_contents from t_cloud_printer_config where sn=%s;" #新订单播报内容
+  query_cancel_order_play_time_sql: "select cancel_order_play_time from t_cloud_printer_config where sn=%s;" #取消单播报次数
+  query_cancel_order_contents_sql: "select cancel_order_contents from t_cloud_printer_config where sn=%s;" #取消单播报内容
+  query_rush_order_play_time_sql: "select rush_order_play_time from t_cloud_printer_config where sn=%s;" #催单播报次数
+  query_voice_connect_sql: "select voice_connect from t_cloud_printer_config where sn=%s;" #网络连接播报次数
+  query_voice_disconnect_sql: "select voice_disconnect from t_cloud_printer_config where sn=%s;" #网络断开播报次数
+  query_inspection_page_language_sql: "select inspection_page_language from t_cloud_printer_config where sn=%s;" #自检页语言
+  query_density_sql: "select density from t_cloud_printer_config where sn=%s;" #打印浓度
+  query_cancel_order_copy_sql: "select cancel_order_copy from t_cloud_printer_config where sn=%s;" #取消单打印联数
+  query_dialect_sql: "select dialect from t_cloud_printer_config where sn=%s;" #语音方言
+  query_voice_speed_sql: "select voice_speed from t_cloud_printer_config where sn=%s;" #语音播报语速
+
+  update_log_swith_off: "update t_cloud_printer_info set log_switch=%s where msn = %s;" #确保log开关为关闭状态
+
+
+
+
+
+
+

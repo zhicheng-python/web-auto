@@ -1,0 +1,9 @@
+/.idea/
+/.pytest_cache/
+/PageAsserts/__pycache__/
+/PageLocations/__pycache__/
+/TestResults/reports/my_allure_results/
+/Common/__pycache__/
+/PageObjects/__pycache__/
+/TestCases/__pycache__/
+/TestDatas/__pycache__/
